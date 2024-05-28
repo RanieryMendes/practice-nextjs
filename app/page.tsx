@@ -5,10 +5,10 @@ import ProductCard from "./components/ProductCard";
 export default function Home() {
   return (
     <main>
-      <h1>
+      <h1 className="font-mono">
         Hello World
       </h1>
-      <Link href="/users">Users</Link>
+      <Link href="/users" className="no-underline hover:underline">Users</Link>
       <ProductCard/>
     </main>
   );
